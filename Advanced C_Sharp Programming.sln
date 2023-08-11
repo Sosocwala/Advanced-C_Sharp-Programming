@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced C_Sharp Programming", "Advanced C_Sharp Programming\Advanced C_Sharp Programming.csproj", "{3F891E51-9F5A-45AD-B71E-140A4E56D772}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programming in C-Sharp Managing Program Flow", "Programming in C-Sharp Managing Program Flow", "{ED81BCB0-D77A-46A0-B89B-8006980A261C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Switch Statement", "The Switch Statement\The Switch Statement.csproj", "{1C2FCE9D-D382-492B-98F6-598F84B6A3D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The If Else Statement", "The If Else Statement\The If Else Statement.csproj", "{DA80D750-290F-4C2B-A70E-3E792C06E1F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For and Foreach Statements", "For and Foreach Statements\For and Foreach Statements.csproj", "{2FA80C32-AF21-4D65-AD28-8AD99824B7E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators and Eval Expressions", "Operators and Eval Expressions\Operators and Eval Expressions.csproj", "{FBA723D9-E750-4FE5-BF00-DFCA61E9D818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using Built-In Delegate Types", "Using Built-In Delegate Types\Using Built-In Delegate Types.csproj", "{57429B01-D144-4F81-A89A-CF2721362A01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F891E51-9F5A-45AD-B71E-140A4E56D772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F891E51-9F5A-45AD-B71E-140A4E56D772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F891E51-9F5A-45AD-B71E-140A4E56D772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F891E51-9F5A-45AD-B71E-140A4E56D772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2FCE9D-D382-492B-98F6-598F84B6A3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2FCE9D-D382-492B-98F6-598F84B6A3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2FCE9D-D382-492B-98F6-598F84B6A3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2FCE9D-D382-492B-98F6-598F84B6A3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA80D750-290F-4C2B-A70E-3E792C06E1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA80D750-290F-4C2B-A70E-3E792C06E1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA80D750-290F-4C2B-A70E-3E792C06E1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA80D750-290F-4C2B-A70E-3E792C06E1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA80C32-AF21-4D65-AD28-8AD99824B7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA80C32-AF21-4D65-AD28-8AD99824B7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA80C32-AF21-4D65-AD28-8AD99824B7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA80C32-AF21-4D65-AD28-8AD99824B7E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA723D9-E750-4FE5-BF00-DFCA61E9D818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA723D9-E750-4FE5-BF00-DFCA61E9D818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA723D9-E750-4FE5-BF00-DFCA61E9D818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA723D9-E750-4FE5-BF00-DFCA61E9D818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57429B01-D144-4F81-A89A-CF2721362A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57429B01-D144-4F81-A89A-CF2721362A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57429B01-D144-4F81-A89A-CF2721362A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57429B01-D144-4F81-A89A-CF2721362A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C2FCE9D-D382-492B-98F6-598F84B6A3D7} = {ED81BCB0-D77A-46A0-B89B-8006980A261C}
+		{DA80D750-290F-4C2B-A70E-3E792C06E1F1} = {ED81BCB0-D77A-46A0-B89B-8006980A261C}
+		{2FA80C32-AF21-4D65-AD28-8AD99824B7E6} = {ED81BCB0-D77A-46A0-B89B-8006980A261C}
+		{FBA723D9-E750-4FE5-BF00-DFCA61E9D818} = {ED81BCB0-D77A-46A0-B89B-8006980A261C}
+		{57429B01-D144-4F81-A89A-CF2721362A01} = {ED81BCB0-D77A-46A0-B89B-8006980A261C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED07576F-BE30-4228-83DA-FC36A2E96DD6}
+	EndGlobalSection
+EndGlobal
