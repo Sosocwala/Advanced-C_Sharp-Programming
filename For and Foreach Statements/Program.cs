@@ -22,7 +22,7 @@ namespace For_and_Foreach_Statements
               {
                   if(cities[i] == "Sandton")
                   {
-                      cities[i] = "JozVagus"
+                    cities[i] = "JozVagus";
                   }
                   Console.WriteLine(cities[i]);
               }
