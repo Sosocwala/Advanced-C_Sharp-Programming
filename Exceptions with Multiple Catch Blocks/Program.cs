@@ -47,7 +47,7 @@ namespace Exceptions_with_Multiple_Catch_Blocks
             {
                 if (ex.GetType() == typeof(PathTooLongException))
                 {
-                    Console.WriteLine("The File Path is Too Long. Try again without the Verbosity");
+                    Console.WriteLine("The File Path is Too Long. Try again without the Verbosity")
                 }
                 else if (ex.GetType() == typeof(DirectoryNotFoundException))
                 {
