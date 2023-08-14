@@ -37,6 +37,6 @@ namespace Event_Handlers
         static void EventHandlerMethod(object sender, EventArgs e)
         {
             Console.WriteLine("EventHandlerMethod called at " + DateTime.Now.ToString("HH:mm:ss"));
-        }
+        }   
     }
 }
