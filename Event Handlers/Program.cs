@@ -20,7 +20,7 @@ namespace Event_Handlers
                 while (_snoozeInMilliSec > 0)
                 {
                     Thread.Sleep(_snoozeInMilliSec);
-                    ValueChanged?.Invoke(this, new EventArgs());
+                    ValueChanged?.Invoke(this, new EventArgs())
 
                     Console.WriteLine("Snooze for (in milli seconds, 0 to terminate): ");
                     _snoozeInMilliSec = int.Parse(Console.ReadLine());
